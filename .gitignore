@@ -1,2 +1,6 @@
 test.py
 test.py
+__pycache__/
+dist/
+build/
+venv/
