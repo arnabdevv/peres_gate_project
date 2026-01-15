@@ -1,7 +1,7 @@
 README.md
 setup.py
-peres_gate/__init__.py
-peres_gate/utils.py
+qiskit_peres_gate/__init__.py
+qiskit_peres_gate/utils.py
 qiskit_peres_gate.egg-info/PKG-INFO
 qiskit_peres_gate.egg-info/SOURCES.txt
 qiskit_peres_gate.egg-info/dependency_links.txt

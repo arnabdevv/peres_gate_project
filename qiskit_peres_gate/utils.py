@@ -21,7 +21,7 @@ def create_peres_gate() -> Gate:
         Gate: A Qiskit Gate object representing the 3-qubit Peres gate.
     """
     # A quantum circuit is created to define the Peres gate's internal operations.
-    peres_circ = QuantumCircuit(3, name='Peres')
+    peres_circ = QuantumCircuit(3, name="Peres")
 
     # The decomposition of the Peres gate:
     # 1. A Toffoli gate (CCX) with qubits 0 and 1 as controls and qubit 2 as target.
@@ -57,3 +57,7 @@ def add_peres_gate(
     """
     peres_gate = create_peres_gate()
     circuit.append(peres_gate, [control1, control2_target, target])
+
+
+def author():
+    print("Arnab Dinda")

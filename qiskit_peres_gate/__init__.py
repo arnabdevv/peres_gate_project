@@ -1,5 +1,6 @@
 from qiskit.circuit import Gate, QuantumCircuit, QuantumRegister
 from qiskit.circuit.library.standard_gates import CCXGate, CXGate
+from .utils import author
 
 
 class PeresGate(Gate):

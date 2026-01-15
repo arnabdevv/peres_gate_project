@@ -1,1 +1,1 @@
-peres_gate
+qiskit_peres_gate
